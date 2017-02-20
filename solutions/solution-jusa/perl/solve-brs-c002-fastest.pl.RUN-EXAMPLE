@@ -1,0 +1,52 @@
+########################################################
+## CPU: Intel i7 1st GEN (From 2010) (using 1 core)   ##
+## MEM: 4Gb                                           ## 
+########################################################
+
+jusafing@morris:~/brs-challenge-002/solution-brs-c002$ time ./solve-brs-c002-fastest.pl ../randomdata 
+  |   \--- Part [3]-> [ien]
+  |   \--- Part [20]-> [ ha]
+  |   \--- Part [22]-> [ bee]
+  |   \--- Part [10]-> [ption]
+  |   \--- Part [9]-> [ exce]
+  |   \--- Part [30]-> [A]
+  |   \--- Part [12]-> [ bad]
+  |   \--- Part [4]-> [ted]
+  |   \--- Part [15]-> [ which]
+  |   \--- Part [13]-> [ id]
+  |   \--- Part [14]-> [ea]
+  |   \--- Part [26]-> [ in]
+  |   \--- Part [35]-> [r]
+  |   \--- Part [21]-> [ve]
+  |   \--- Part [23]-> [n ori]
+  |   \--- Part [11]-> [ally]
+  |   \--- Part [18]-> [ on]
+  |   \--- Part [39]-> [er D]
+  |   \--- Part [16]-> [ cou]
+  |   \--- Part [7]-> [mming]
+  |   \--- Part [40]-> [ijkstra]
+  |   \--- Part [33]-> [h]
+  |   \--- Part [37]-> [Ed]
+  |   \--- Part [19]-> [ly]
+  |   \--- Part [24]-> [ginat]
+  |   \--- Part [31]-> [u]
+  |   \--- Part [1]-> [Obje]
+  |   \--- Part [36]-> [:]
+  |   \--- Part [32]-> [t]
+  |   \--- Part [25]-> [ed]
+  |   \--- Part [27]-> [ Cali]
+  |   \--- Part [38]-> [sg]
+  |   \--- Part [6]-> [ogra]
+  |   \--- Part [28]-> [for]
+  |   \--- Part [8]-> [ is an]
+  |   \--- Part [29]-> [nia.]
+  |   \--- Part [34]-> [o]
+  |   \--- Part [2]-> [ct-or]
+  |   \--- Part [17]-> [ld]
+  |   \--- Part [5]-> [ pr]
+  |
+  |   \--- Message from key [x.-#] : Object-oriented programming is an exceptionally bad idea which could only have been originated in California.Author:Edsger Dijkstra
+
+real    0m5.356s
+user    0m5.296s
+sys 0m0.020s

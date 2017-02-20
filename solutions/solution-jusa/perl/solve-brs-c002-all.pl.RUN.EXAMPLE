@@ -1,0 +1,57 @@
+########################################################
+## CPU: Intel i7 1st GEN (From 2010) (using 1 core)   ##
+## MEM: 4Gb                                           ##
+########################################################
+
+jusafing@morris:~/brs-challenge-002/solution-brs-c002$ time ./solve-brs-c002-all.pl randomdata 
+
+START
+  |
+  | Processing data. Searching candidate KEYS ... 
+  |--- Found KEY Candidate: [2-x.-#] - [47] 
+  |   \--- Part [3]-> [ien] <- From LINE [x1-#3|ien]
+  |   \--- Part [20]-> [ ha] <- From LINE [x1-#20| ha]
+  |   \--- Part [22]-> [ bee] <- From LINE [x0-#22| bee]
+  |   \--- Part [10]-> [ption] <- From LINE [x6-#10|ption]
+  |   \--- Part [9]-> [ exce] <- From LINE [x0-#9| exce]
+  |   \--- Part [30]-> [A] <- From LINE [x1-#30|A]
+  |   \--- Part [12]-> [ bad] <- From LINE [x5-#12| bad]
+  |   \--- Part [4]-> [ted] <- From LINE [x4-#4|ted]
+  |   \--- Part [15]-> [ which] <- From LINE [x1-#15| which]
+  |   \--- Part [13]-> [ id] <- From LINE [x7-#13| id]
+  |   \--- Part [14]-> [ea] <- From LINE [x1-#14|ea]
+  |   \--- Part [26]-> [ in] <- From LINE [x0-#26| in]
+  |   \--- Part [35]-> [r] <- From LINE [x8-#35|r]
+  |   \--- Part [21]-> [ve] <- From LINE [x9-#21|ve]
+  |   \--- Part [23]-> [n ori] <- From LINE [x1-#23|n ori]
+  |   \--- Part [11]-> [ally] <- From LINE [x1-#11|ally]
+  |   \--- Part [18]-> [ on] <- From LINE [x0-#18| on]
+  |   \--- Part [39]-> [er D] <- From LINE [x8-#39|er D]
+  |   \--- Part [16]-> [ cou] <- From LINE [x5-#16| cou]
+  |   \--- Part [7]-> [mming] <- From LINE [x5-#7|mming]
+  |   \--- Part [40]-> [ijkstra] <- From LINE [x1-#40|ijkstra]
+  |   \--- Part [33]-> [h] <- From LINE [x4-#33|h]
+  |   \--- Part [37]-> [Ed] <- From LINE [x0-#37|Ed]
+  |   \--- Part [19]-> [ly] <- From LINE [x3-#19|ly]
+  |   \--- Part [24]-> [ginat] <- From LINE [x7-#24|ginat]
+  |   \--- Part [31]-> [u] <- From LINE [x4-#31|u]
+  |   \--- Part [1]-> [Obje] <- From LINE [x0-#1|Obje]
+  |   \--- Part [36]-> [:] <- From LINE [x1-#36|:]
+  |   \--- Part [32]-> [t] <- From LINE [x1-#32|t]
+  |   \--- Part [25]-> [ed] <- From LINE [x1-#25|ed]
+  |   \--- Part [27]-> [ Cali] <- From LINE [x1-#27| Cali]
+  |   \--- Part [38]-> [sg] <- From LINE [x1-#38|sg]
+  |   \--- Part [6]-> [ogra] <- From LINE [x1-#6|ogra]
+  |   \--- Part [28]-> [for] <- From LINE [x3-#28|for]
+  |   \--- Part [8]-> [ is an] <- From LINE [x1-#8| is an]
+  |   \--- Part [29]-> [nia.] <- From LINE [x5-#29|nia.]
+  |   \--- Part [34]-> [o] <- From LINE [x1-#34|o]
+  |   \--- Part [2]-> [ct-or] <- From LINE [x3-#2|ct-or]
+  |   \--- Part [17]-> [ld] <- From LINE [x4-#17|ld]
+  |   \--- Part [5]-> [ pr] <- From LINE [x0-#5| pr]
+  |
+  |>>>>>>> Message from key [x.-#] : Object-oriented programming is an exceptionally bad idea which could only have been originated in California.Author:Edsger Dijkstra
+
+real    1m17.067s
+user    1m16.432s
+sys 0m0.352s

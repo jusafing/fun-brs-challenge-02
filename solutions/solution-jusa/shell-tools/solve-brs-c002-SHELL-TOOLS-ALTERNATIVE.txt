@@ -1,0 +1,64 @@
+##############################################################################
+Disclaimer: 
+This solution is bias (certain knowledge about the key might be implied.
+However by following its logic, finding the solution is straightforward
+##############################################################################
+
+##############################################################################
+
+### TLDR
+
+#### SOLUTION
+````
+$ time grep -o '....' randomdata | sort | uniq -c | sort -nr | more
+$ grep 'x[0-9]-#' randomdata |sed 's/....//' | sort -n | sed 's/.*|//' | tr --delete '\n'
+````
+
+#### QUOTE:
+> Object-oriented programming is an exceptionally bad idea which could only have been originated in California
+`Author:` *Edsger Dijkstra*
+
+#### Pros/Cons
+Pro: Simple, "fast"
+Cons: Semi-automated
+
+
+##############################################################################
+
+### 1. Step 1)
+Look for the first 4 characters ("bytes") of each line and make a count to
+find any pattern that is more repetitive than others and has the features
+described in the `hints`: 3 fixed characters 1 dynamic
+````
+	$ grep -o '....' randomdata | sort | uniq -c | sort -nr | more
+````
+This outputs something like this:
+````
+     16 x1-#
+      7 x0-#
+      5 TUYD
+      5 #pb+
+      5 M7}6
+      5 I1_|
+      5 e~Yf
+      5 C!>H
+      ...
+      ...
+````
+
+### 2. Step 2) By try/error method, if we try the first pattern found `x*-#`:
+`Fixed chars` are `x` `-` `#`, then we can look for:
+
+````
+$ grep 'x[0-9]-#' randomdata |sed 's/....//' | sort -n | sed 's/.*|//' | tr --delete '\n'
+````
+Where:
+1. `grep 'x[0-9]-#' randomdata`: Filter out the lines with the chunks of message
+This also gives a hint about the way of reassembly the chunks. There is a 
+number that it looks like an index.
+
+2. `sed 's/....//'` : Remove the pattern until the *index*
+3. `sort -n `: Sort the index by numeric value
+4. `sed 's/.*|//'`: Keep what it seems to be the message itself (chunk)
+5. `tr --delete '\n'`: Remove *new line* character to have assembly the message
+
