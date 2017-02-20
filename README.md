@@ -1,4 +1,3 @@
-
 * Challenge Series BRS v2017.2.2
 * Category: Scripting
 * Level   : Basic
@@ -22,10 +21,8 @@ In order to find the obfuscated quote you *may* need *some* of these hints:
 
 ##### Please answer:
 
------------------------------
 1) What is the hidden quote?
 2) Who is the Author?
------------------------------
 
 ##### Solution:
    - Submit your solution with code to jusafing@gmail.com
