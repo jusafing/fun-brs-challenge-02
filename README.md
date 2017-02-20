@@ -1,14 +1,10 @@
-##############################################################################
-Challenge Series BRS v2017.2.2
 
-Category: Scripting
-Level   : Basic
+* Challenge Series BRS v2017.2.2
+* Category: Scripting
+* Level   : Basic
 
-##############################################################################
-
-##############################################################################
 There is a hidden "quote" within all this garbage retrieved from /dev/urandom
-##############################################################################
+
 
 In order to find the obfuscated quote you *may* need *some* of these hints:
 (or not)
@@ -24,32 +20,28 @@ In order to find the obfuscated quote you *may* need *some* of these hints:
    the message. How? It is easy if you see the chunks.
 
 
-##############################################################################
-Please answer:
+##### Please answer:
 
 -----------------------------
 1) What is the hidden quote?
 2) Who is the Author?
 -----------------------------
 
-##############################################################################
-Solution:
+##### Solution:
    - Submit your solution with code to jusafing@gmail.com
      Before Feb 20th 2017 00:00 GMT
 
-Winner:
+##### Winner:
    - Most "elegant" and/or efficient solution.
 
    - It will be checked with:
     
      $ time ./script_name 
 
-PRIZE
+##### PRIZE
    - Knowledge and a pizza|beer|cake
 
-##############################################################################
-
-Solutions accepted:
+##### Solutions accepted:
 - code something!!!! otherwise...
 - prepare yourself to scroll millions of lines down looking for "patterns"
 
